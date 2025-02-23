@@ -1,0 +1,36 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar-container {
+  width: 100%;
+  position: relative;
+  z-index: 1000;
+}
+
+.choices-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cards-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.collections-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}

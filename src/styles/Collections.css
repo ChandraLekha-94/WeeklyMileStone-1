@@ -1,0 +1,83 @@
+.container {
+    max-width: 1100px;
+    margin: 50px; /* Centers the container */
+    text-align: center; /* Centers the text content */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers everything inside the container */
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 25px;
+    color: #0f0d0d;
+    font-family: playfair;
+}
+
+.collections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Ensures items are centered */
+    align-items: center;
+    width: 100%;
+    max-width: 1100px; /* Ensures it doesn't expand too much */
+}
+
+.collection-card {
+    position: relative;
+    width: 23%;
+    min-width: 250px; /* Ensures consistent width */
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.collection-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.collection-card:hover img {
+    transform: scale(1.1);
+}
+
+.collection-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.collection-card a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .collections {
+        justify-content: center;
+    }
+    .collection-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .collection-card {
+        width: 100%;
+    }
+}

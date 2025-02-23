@@ -1,0 +1,86 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    color: azure;
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+
+.logo h1 {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: cursive;
+    color: #FFFFFF;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: larger;
+    color: #150303;
+    font-family: cursive;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('greenChef.png') no-repeat center center/cover;
+    height: 500px;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    background: rgb(90, 200, 43);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 150px;
+    width: 50%;
+    box-shadow: 0px 0px 5px rgba(30, 18, 18, 0.2);
+}
+
+.location {
+    padding: 5px;
+    font-weight: bold;
+    height: max-content;
+    width: max-content;
+}
+
+.search-box input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border: 2px groove black;
+    border-radius: 20px;
+}
+
+.inputSelection {
+    padding: 5px;
+}
+
+.locationPlaces {
+    font-family: 'Times New Roman', Times, serif;
+}
